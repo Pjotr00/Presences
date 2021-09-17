@@ -1,0 +1,26 @@
+{
+    "$schema": "https://schemas.premid.app/metadata/1.3",
+    "service": "LCPDFR",
+    "author": {
+      "name": "Pjotr",
+      "id": "662014520943706133"
+    },
+    "category": "games",
+    "logo": "https://i.lcpdfrusercontent.com/screenshots/monthly_2019_02/frlogo.png.4027faac813ec4b7da555ea910fd5bda.png",
+    "thumbnail": "https://i.imgur.com/rKLqyJH.png",
+    "version": "1.0.0",
+    "color": "#226df5",
+    "tags": [
+      "gta",
+      "modding",
+      "mods",
+      "police"
+    ],
+    "url": [
+      "lcpdfr.com",
+      "www.lcpdfr.com"
+    ],
+    "description": {
+      "en": "LCPDFR.com, home to LSPDFR and the massive GTA 5 mod community!"
+    }
+}
