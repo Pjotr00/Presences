@@ -34,15 +34,14 @@ presence.on("UpdateData", async () => {
       (currentTime = presence.timestampFromFormat(
         document.querySelector(".bilibili-player-video-time-now").textContent
       )),
-      (duration = presence.timestampFromFormat(
-        document.querySelector(".bilibili-player-video-time-total")
-          .textContent
-      )),
-      (timestamps = presence.getTimestamps(currentTime, duration));
+        (duration = presence.timestampFromFormat(
+          document.querySelector(".bilibili-player-video-time-total")
+            .textContent
+        )),
+        (timestamps = presence.getTimestamps(currentTime, duration));
     }
 
-    presenceData.startTimestamp = timestamps[0];
-    presenceData.endTimestamp = timestamps[1];
+    [presenceData.startTimestamp, presenceData.endTimestamp] = timestamps;
 
     presenceData.smallImageKey = videoPaused ? "pause" : "play";
 

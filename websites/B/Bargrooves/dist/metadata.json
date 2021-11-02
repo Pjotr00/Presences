@@ -1,4 +1,5 @@
 {
+  "$schema": "https://schemas.premid.app/metadata/1.5",
   "author": {
     "name": "Chezzer",
     "id": "195979856733929472"
@@ -12,8 +13,8 @@
     "nl": "Bargrooves stelt op maat gemaakte soundtracks samen voor veeleisende house muziekliefhebbers; compilaties en afspeellijsten die bij uw seizoensstemming passen, met de beste actuele dansmuziek naast geliefde klassiekers. Gebruik deze extensie om uw vrienden te laten zien waarnaar u luistert."
   },
   "service": "Bargrooves",
-  "version": "1.4.5",
-  "logo": "https://i.imgur.com/XbJf0LI.png",
+  "version": "1.4.8",
+  "logo": "https://i.imgur.com/VmWzplx.png",
   "thumbnail": "https://i.imgur.com/VUxIYVe.png",
   "color": "#FFBB00",
   "category": "music",
